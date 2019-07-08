@@ -29,7 +29,7 @@ def min_select( *data_list ):
 def my_sum(*a):
     add=0
     for i in a:
-        add= add+i
+        add = add+i
     return add
     
 
