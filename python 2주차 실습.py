@@ -8,10 +8,10 @@ def max_select( *data_list ):
         if value > maximum:
             maximum = value
 
-    return print(maximum)
+    return maximum
 
 
-max_select(3,4,5,6,7)
+print(max_select(3,4,5,6,7))
 
 
 #2
@@ -22,10 +22,10 @@ def min_select( *data_list ):
         if value < minimum:
             minimum = value
 
-    return print(minimum)
+    return minimum
 
 
-min_select(3,4,5,6,7)
+print(min_select(3,4,5,6,7))
 
 
 
@@ -38,7 +38,7 @@ def my_sum(*a):
         add= add+i
     return add
 
-my_sum(4,6,5)
+print(my_sum(4,6,5))
     
 
 # 4.
@@ -49,4 +49,4 @@ def my_avg(*b):
     avg = add / len(b)
     return avg
 
-my_avg(4,5,6)
+print(my_avg(4,5,6))
